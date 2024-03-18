@@ -1,4 +1,4 @@
-public class megBytesConverter {
+public class MegBytesConverter {
     public static void main(String[] args) {
         printMegaBytesAndKiloBytes(-50);
     }
