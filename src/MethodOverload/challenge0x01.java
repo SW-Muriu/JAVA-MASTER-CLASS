@@ -6,6 +6,8 @@ public class challenge0x01 {
         System.out.println("The inches are: " + convertToCentimetres(68));
         System.out.println("The feet and inches are: " + convertToCentimetres(5, 8));
 
+        System.out.println(7%10
+        );
     }
 
     //Converts inches to centimetres
