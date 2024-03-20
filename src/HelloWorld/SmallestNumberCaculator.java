@@ -1,3 +1,5 @@
+package HelloWorld;
+
 import javax.rmi.ssl.SslRMIClientSocketFactory;
 import java.util.Scanner;
 

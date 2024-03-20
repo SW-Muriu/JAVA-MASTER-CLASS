@@ -1,3 +1,5 @@
+package HelloWorld;
+
 public class MethodChallenge0x01 {
 
     public static void main(String[] args) {

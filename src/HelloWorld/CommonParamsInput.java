@@ -1,3 +1,5 @@
+package HelloWorld;
+
 import java.util.Scanner;
 
 public class CommonParamsInput {
