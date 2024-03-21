@@ -11,6 +11,8 @@ public class AreaCalculator {
 
     public static void main(String[] args) {
 
+        System.out.println("The area of the circle is :: " + area(24));
+        System.out.println("The area of the rectangle is:  " + area(4, 12));
     }
 
     public static double area(double radius) {
