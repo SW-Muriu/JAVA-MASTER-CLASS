@@ -1,4 +1,4 @@
-package HelloWorld;
+package SEC01JavaBasics.HelloWorld;
 
 //Write a method isLeapYear with a parameter of type int named year.
 //

@@ -1,4 +1,4 @@
-package HelloWorld;
+package SEC01JavaBasics.HelloWorld;
 
 //Barking Dog
 //We have a dog that likes to bark.  We need to wake up if the dog is barking at night!

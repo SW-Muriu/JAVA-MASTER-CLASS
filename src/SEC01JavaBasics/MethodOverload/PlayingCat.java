@@ -1,4 +1,4 @@
-package MethodOverload;
+package SEC01JavaBasics.MethodOverload;
 
 //Playing Cat
 //The cats spend most of the day playing. In particular, they play if the temperature is between 25 and 35 (inclusive).

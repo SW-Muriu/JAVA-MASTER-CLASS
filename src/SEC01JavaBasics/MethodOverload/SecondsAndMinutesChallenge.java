@@ -1,4 +1,4 @@
-package MethodOverload;
+package SEC01JavaBasics.MethodOverload;
 //Create a method that takes time represented in seconds as the param,
 //Transform the seconds into hours
 //Display time in hours, with the remaining minutes and seconds as a String

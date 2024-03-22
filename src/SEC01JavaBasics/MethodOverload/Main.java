@@ -1,4 +1,4 @@
-package MethodOverload;
+package SEC01JavaBasics.MethodOverload;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,6 +1,6 @@
-package MethodOverload;
+package SEC01JavaBasics.MethodOverload;
 
-import HelloWorld.CommonParamsInput;
+import SEC01JavaBasics.HelloWorld.CommonParamsInput;
 
 //Write a method printEqual with 3 parameters of type int. The method should not return anything (void).
 //If one of the parameters is less than 0, print text "Invalid Value".

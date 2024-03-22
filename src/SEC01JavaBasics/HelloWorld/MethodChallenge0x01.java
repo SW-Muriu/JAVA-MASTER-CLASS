@@ -1,4 +1,4 @@
-package HelloWorld;
+package SEC01JavaBasics.HelloWorld;
 
 public class MethodChallenge0x01 {
 

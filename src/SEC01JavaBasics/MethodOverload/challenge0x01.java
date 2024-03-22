@@ -1,4 +1,4 @@
-package MethodOverload;
+package SEC01JavaBasics.MethodOverload;
 
 public class challenge0x01 {
     public static void main(String[] args) {
