@@ -1,3 +1,5 @@
+package SEC01JavaBasics.HelloWorld;
+
 import java.util.Scanner;
 
 public class AverageCalculator {

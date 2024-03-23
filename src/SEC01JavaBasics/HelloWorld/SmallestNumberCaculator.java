@@ -1,3 +1,5 @@
+package SEC01JavaBasics.HelloWorld;
+
 import javax.rmi.ssl.SslRMIClientSocketFactory;
 import java.util.Scanner;
 

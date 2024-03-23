@@ -1,3 +1,5 @@
+package SEC01JavaBasics.HelloWorld;
+
 public class SpeedConverter {
     public static void main(String[] args) {
          printConversion(1);

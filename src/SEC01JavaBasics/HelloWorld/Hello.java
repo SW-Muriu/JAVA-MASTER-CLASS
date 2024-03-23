@@ -1,3 +1,5 @@
+package SEC01JavaBasics.HelloWorld;
+
 public class Hello {
     public static void main(String[] args) {
         System.out.println("My Name is Sam");
