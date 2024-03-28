@@ -71,7 +71,7 @@ public class Switch {
             case "July", "August", "September" ->  month +  " is in the Third Quarter";
             case "October", "November", "December" ->  month +  " is in the Fourth Quarter";
             default  -> {
-                
+
                 yield "Enter the correct month";
             }
         };
