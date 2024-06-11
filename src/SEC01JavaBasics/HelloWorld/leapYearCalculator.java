@@ -8,7 +8,7 @@ package SEC01JavaBasics.HelloWorld;
 public class leapYearCalculator {
 
     public static void main(String[] args) {
-        isLeapYear(1924);
+        isLeapYear(2000);
     }
 
     public static boolean isLeapYear(int year) {

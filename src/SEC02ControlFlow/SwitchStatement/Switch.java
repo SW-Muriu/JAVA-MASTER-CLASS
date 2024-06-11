@@ -62,7 +62,7 @@ public class Switch {
     }
 
 
-//    Simmilarly, you can return a switch case:
+//    Similarly, you can return a switch case:
 
     public static String getQuarter2(String month){
       return  switch (month){
