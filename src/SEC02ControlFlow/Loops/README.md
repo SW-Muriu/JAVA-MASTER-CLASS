@@ -8,3 +8,6 @@ There are three loops
    Executes until a given condition becomes false
 3. Do while loop
     Executes at least once and continues until a given condition becomes false
+
+While using the While loop, you can can use continue to skip, where the number that returns true for the condition, is skipped
+Used the same as if-break
