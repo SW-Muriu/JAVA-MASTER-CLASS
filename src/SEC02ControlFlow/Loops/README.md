@@ -11,3 +11,10 @@ There are three loops
 
 While using the While loop, you can can use continue to skip, where the number that returns true for the condition, is skipped
 Used the same as if-break
+
+
+
+Local variables are always in scope in the block they are declared
+They are also in scope for any nested blocks contained within the outer block
+Declare variables in the narrowest scope possible
+Declare and intialize variables at the same place where possible
