@@ -23,6 +23,8 @@ public class EvenDigitSum {
 
         while (number >= 10){
             number /= 10;
+
+            // save the last number at each iteration
             int newLastDigit = number % 10;
 
             if (newLastDigit % 2 == 0 ) sumOfEvenDigits += newLastDigit;
