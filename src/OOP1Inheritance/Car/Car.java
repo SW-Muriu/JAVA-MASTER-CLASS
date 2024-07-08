@@ -1,4 +1,4 @@
-package OOP1Inheritance;
+package OOP1Inheritance.Car;
 
 public class Car {
 
