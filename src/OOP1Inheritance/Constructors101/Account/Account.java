@@ -1,4 +1,4 @@
-package OOP1Inheritance.Constructors101;
+package OOP1Inheritance.Constructors101.Account;
 
 public class Account {
 
