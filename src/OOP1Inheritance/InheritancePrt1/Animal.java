@@ -2,7 +2,8 @@ package OOP1Inheritance.InheritancePrt1;
 
 public class Animal {
 
-    private  String type;
+    //Conditional Access to within the package, and subclasses
+    protected  String type;
     private String size;
     private double weight;
 

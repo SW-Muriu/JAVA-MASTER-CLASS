@@ -14,6 +14,14 @@ public class Main {
 
         Dog retriever = new Dog("Labrador Retriever", 65, "Floppy", "Swimmer" );
         doAnimalStaff(retriever, "slow");
+
+        Dog wolf = new Dog("Wolf", 40);
+        doAnimalStaff(wolf, "slow");
+
+        Fish goldie = new Fish("Goldfish", 0.25, 2, 3);
+        doAnimalStaff(goldie, "fast");
+
+
     }
 
     public static void doAnimalStaff(Animal animal, String speed){
