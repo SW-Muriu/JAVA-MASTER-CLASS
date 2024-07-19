@@ -1,4 +1,4 @@
-package OOP1Inheritance.InheritancePrt1;
+package OOP1Inheritance.InheritancePrt1.Animalia;
 
 public class Dog extends Animal{
 
