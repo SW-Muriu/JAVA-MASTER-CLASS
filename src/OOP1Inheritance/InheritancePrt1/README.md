@@ -12,7 +12,7 @@
 //this vs super
 1. The key word super is used to access or call the parent class members(both variables and methods)
 2. the keyword thus, is used to call the current class members(both variables and methods)
-3. this is a requirement where we have a param with the same name as an instance field
+3. this is a requirement where we have a param with the same fullName as an instance field
 4. Both can be used anywhere in a class except for static elements
 5. super is commonly used with method overriding
 
@@ -24,7 +24,7 @@
 5. The same applies to the super() call, though this is used when calling the parent constructor from a sub class
 
 //Method Overloading vs Method Overriding
-1. Method overloading means providing 2 or more separate methods in a class with the same name but different params
+1. Method overloading means providing 2 or more separate methods in a class with the same fullName but different params
 2. Return type may or may not be different, which allows us to reuse the same method names
 3. Overloading reduces duplicated code, and we don't have to remember multiple method names
 4. we can overload both static and instance methods
@@ -43,7 +43,7 @@
 11. use @Override to catch exceptions when overriding methods
 12. Static methods cannot be overridden
 13. Rules:
-    - Must have the same name and same args
+    - Must have the same fullName and same args
     - Return type can be a subclass of the return type in the parent class 
     - It can't have a lower access modifier eg: if a parent's method is protected, then using private in the childs overridden method is not allowed. However, using public for the childs method, would be allowed;
 14. Constructors and private methods cannot be overridden

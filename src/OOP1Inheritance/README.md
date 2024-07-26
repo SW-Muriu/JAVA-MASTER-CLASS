@@ -13,7 +13,7 @@
 
 
 1. classes are organized in logical groupings called packages
-2. You declare a package name in the class using the package statement
+2. You declare a package fullName in the class using the package statement
 3. If you don't declare a package, the class implicitly belongs to the default package
 4. A class is said to be top-level, if its defined in the src file, and not enclosed in the code block of another class, type or method
 5. A top level class has only 2 valid access modifier options: Public or none
