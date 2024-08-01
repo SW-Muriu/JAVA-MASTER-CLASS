@@ -21,3 +21,19 @@
    - one of them is through the inheritance rule
      - Where an instance to a variable of the same type , or a parent type, or a parent's parent type including java.lang.Object, the ultimate base class
 7. The difference between run time and compile time typing is because of polymorphism. One compile time type 'Movie' was used to generate 4 different run time types 'Adventure etc...'
+
+//InstanceOf operator
+1. Test the type of Object/instance
+2. The reference variable being tested is the left operand 
+
+unknownObject instanceof Adventure
+
+3. Returns true if unknownObject is an instance of Adventure
+4. Not that Adventure is not in quites, meaning I am not testing the type name but the actual type itself
+
+unknownObject instanceof ScienceFiction syfy
+
+if the JVM can identify an object matches the type, it can extract data from the object without casting (Java 16+)
+For this operator, the object can be assigned to a variable, in this case, syfy
+The variable syfy (if the instance is true) is already typed as a ScienceFiction variable
+This is called pattern matching for the instance variable
