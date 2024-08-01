@@ -10,19 +10,12 @@ public class Printer {
         return pagesPrinted;
     }
 
-    public int getTonerLevel() {
-        return tonerLevel;
-    }
 
     public Printer(int tonerLevel, boolean duplex) {
         this.tonerLevel = (tonerLevel < 0 || tonerLevel > 100) ? -1 : tonerLevel;
         this.duplex = duplex;
     }
 
-    public Printer(int tonerLevel, int pagesPrinted, boolean duplex) {
-        this(tonerLevel, duplex);
-        this.pagesPrinted = pagesPrinted;
-    }
 
     public int addToner(int tonerAmount) {
         int newLevel = this.tonerLevel + tonerAmount;
@@ -33,6 +26,7 @@ public class Printer {
 
     public int printPages(int pages) {
         int jobPages = (duplex) ? (pages / 2) + (pages % 2) : pages;
+        System.out.println((duplex) ? "Printing in duplex mode" : "Printing in singleplex mode");
         this.pagesPrinted += jobPages;
         return jobPages;
     }
