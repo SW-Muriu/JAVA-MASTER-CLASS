@@ -5,4 +5,19 @@
 5. getClass() fetches the run time instance of the class in question. Anf getSimpleName() gets the name of that class
 6. Polymorphism is the ability to execute different behavior for different types, which are determined at run time
 7. Allows one to write generic code based on the base/parent class
-8. And this code in the main method is extendable, meaning it does not have to change as new subclasses become available 
+8. And this code in the main method is extendable, meaning it does not have to change as new subclasses become available
+
+
+//Local Variable Type Inference 
+1. Intro in Java 10
+2. increases code readability. Reduces boilerplate code
+3. Called LVTI because
+   - Cant be used in field declarations 
+   - cant be used in method signatures that is, in param type or return type
+   - cant be used without an assignment, since it has to infer. Hence, also, can't be assigned to null
+4. Compile time type is similar to declared type
+5. run time type is essentially what is on the right of the assignment, and it is determined on the JVM, as bytecode
+6. Sevaral rules have to be followed to assign a run time instance to a different compile time type.
+   - one of them is through the inheritance rule
+     - Where an instance to a variable of the same type , or a parent type, or a parent's parent type including java.lang.Object, the ultimate base class
+7. The difference between run time and compile time typing is because of polymorphism. One compile time type 'Movie' was used to generate 4 different run time types 'Adventure etc...'
