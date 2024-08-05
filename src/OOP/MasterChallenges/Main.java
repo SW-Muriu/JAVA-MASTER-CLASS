@@ -31,7 +31,7 @@ public class Main {
         MealOrder deluxeMeal = new MealOrder("deluxe", "7-up", "chilli");
         deluxeMeal.addBurgerToppings("BACON", "CHEESE", "MAYO" , "Avocado", "Bacon");
         deluxeMeal.setDrinkSize("SMALL");
-        deluxeMeal.printItemizedList(); 
+        deluxeMeal.printItemizedList();
 
     }
 }
