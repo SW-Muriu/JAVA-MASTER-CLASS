@@ -21,10 +21,17 @@ public class Main {
 //        regularMeal.printItemizedList();
 
 
-        MealOrder secondMeal = new MealOrder("turkey", "7-UP", "chilli");
-        secondMeal.addBurgerToppings("LETTUCE", "CHEESE", "MAYO");
-        secondMeal.setDrinkSize("SMALL");
-        secondMeal.printItemizedList();
+//        MealOrder secondMeal = new MealOrder("turkey", "7-UP", "chilli");
+//        secondMeal.addBurgerToppings("LETTUCE", "CHEESE", "MAYO");
+//        secondMeal.setDrinkSize("SMALL");
+//        secondMeal.printItemizedList();
+
+
+        //Meal Order With  A deluxe type
+        MealOrder deluxeMeal = new MealOrder("deluxe", "7-up", "chilli");
+        deluxeMeal.addBurgerToppings("BACON", "CHEESE", "MAYO" , "Avocado", "Bacon");
+        deluxeMeal.setDrinkSize("SMALL");
+        deluxeMeal.printItemizedList(); 
 
     }
 }
