@@ -35,3 +35,21 @@
    - Searching 
 2. These classes are provided for by the Array helper class as static methods
 3. copyOf can be used for a partial copy, a full copy or a copy plus extra values 
+
+
+
+//Searching in Arrays 
+1. Linear/Sequential search: Expensive method since you are checking through the elements one after the other 
+2. Interval Searching: As done in using a dictionary 
+3. There are various methods to each of the 2 search techniques above. 
+
+
+//Binary Search 
+1. It is static for Arrays class. 
+2. Points to note:
+   - Array must be sorted
+   - If there are duplicate values, there's no telling at which duplicate value it will much
+   - Elements must be comparable 
+   - Method returns the position of a match if found, -1 otherwise 
+   - Remember, the position is not necessarily the first/last matching element
+- In comparing arrays, they are only equal if they have the same length, they elements are placed the same and in the same indices
