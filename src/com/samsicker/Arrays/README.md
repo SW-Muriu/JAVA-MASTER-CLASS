@@ -26,3 +26,12 @@
 
 3. java.util.arrays holds static methods for arrays common functionalities. They are not instance methods
 4. You can create an array of objects, with each object having different values, hence this can contain different types
+
+//Array Manipulation
+1. Common behaviours of the Array class include
+   - Sorting
+   - Initializing Values
+   - Copying 
+   - Searching 
+2. These classes are provided for by the Array helper class as static methods
+3. copyOf can be used for a partial copy, a full copy or a copy plus extra values 
