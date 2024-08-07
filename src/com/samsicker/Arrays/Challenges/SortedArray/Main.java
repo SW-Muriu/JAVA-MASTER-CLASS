@@ -1,5 +1,7 @@
 package com.samsicker.Arrays.Challenges.SortedArray;
 
+import java.util.Arrays;
+
 public class Main {
     public static void main(String... args) {
 //        int[] myTestArr = getIntegers(6);
@@ -13,6 +15,7 @@ public class Main {
 
         System.out.println("Hello World Again");
         String[] splitString = "Hello World Again".split(" ");
+        System.out.println("Split String: " + Arrays.toString(splitString));
         printText(splitString);
 
         System.out.println("_".repeat(30));
