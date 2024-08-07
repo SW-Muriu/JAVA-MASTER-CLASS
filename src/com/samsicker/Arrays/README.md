@@ -53,3 +53,18 @@
    - Method returns the position of a match if found, -1 otherwise 
    - Remember, the position is not necessarily the first/last matching element
 - In comparing arrays, they are only equal if they have the same length, they elements are placed the same and in the same indices
+
+
+1. When you assign an object to a variable, the variable becomes a reference to that object
+2. This is true of arrays, but the array has yet another indirection if its an array of objects
+3. Every array element is also a reference
+4. A reference is an address to the object in memory, but not the object itself
+
+
+
+//Variable Arguments/ Variadic Arguments (varargs)
+
+1. Used when one wants to allow a method to accept a variable number of the same type of arguments. This is done using an ellipsis
+
+   - public void sum(int... args){}
+   - 
