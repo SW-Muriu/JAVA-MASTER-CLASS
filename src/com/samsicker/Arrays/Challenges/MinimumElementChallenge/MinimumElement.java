@@ -31,4 +31,15 @@ public class MinimumElement {
         Arrays.sort(arr);
         return arr[0];
     }
+
+    //Solution 2
+    public static int findMinB(int[] arr){
+        int minValue = Integer.MAX_VALUE;
+        for(int el: arr){
+            if(el < minValue){
+                minValue = el;
+            }
+        }
+        return minValue;
+    }
 }

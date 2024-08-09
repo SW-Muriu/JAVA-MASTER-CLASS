@@ -9,7 +9,7 @@ public class Main {
         System.out.println(Arrays.toString(intAr));
         MinimumElement.findMin(intAr);
 
-        int minValue = MinimumElement.findMin(intAr);
+        int minValue = MinimumElement.findMinB(intAr);
         System.out.println("Minimum Value: " + minValue);
     }
 }
