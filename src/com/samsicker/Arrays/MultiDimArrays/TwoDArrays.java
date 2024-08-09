@@ -1,4 +1,4 @@
-package com.samsicker.Arrays.TwoDArrays;
+package com.samsicker.Arrays.MultiDimArrays;
 
 import java.util.Arrays;
 
