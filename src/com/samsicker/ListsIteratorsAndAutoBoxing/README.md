@@ -4,4 +4,8 @@
 - Keeps track of the assigned elements which is the actual size of the arrayList
 - When declaring the arrayList, always include the type argument.
 - This makes sure you have the compile time type checking
-- 
+- Arrays are not resizable but arrayList are
+- An array requires brackets on the declaration side and are initated with size in square brackets on the right
+- An arrayList should be declared with the type of element in angle brackets
+- In arrayLists, we can use list constructor eg: List.of() 
+- When you create an array list by wrapping an array; the original array is impacted on by all manipulations of the arrayList
