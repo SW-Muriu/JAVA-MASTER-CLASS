@@ -1,6 +1,9 @@
 package com.samsicker.ListsIteratorsAndAutoBoxing.Challenges;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.List;
+import java.util.Scanner;
 
 public class GroceryListB {
 
@@ -48,21 +51,9 @@ public class GroceryListB {
     private static void removeItems(ArrayList<String> groceries){
         System.out.println("Enter item(s) to remove, separated by comma");
         String items = scanner.nextLine().trim();
-        String[] splits = items.split(",");
-
-        if(Arrays.asList(splits).contains("Mangoes")){
-            System.out.println("Enter name space for Mangoes: ");
-            String nameSpace = scanner.nextLine();
-            System.out.println("Namespace: " + nameSpace);
-        }
-
-        for(String item : splits){
+        for(String item : items.split(",")){
             if(item.trim().isEmpty()) continue; // Ignore empty strings or space
             groceries.removeAll(List.of(item.trim()));
         }
-        
-//        System.out.println("Enter goodbye message: ");
-//        String goodBye = scanner.nextLine().trim();
-//        System.out.println("Goodbye! " + goodBye);
     }
 }
